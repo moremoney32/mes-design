@@ -1,0 +1,19 @@
+.found{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    color:#FF6060 ;
+    align-items: center;
+    transform: translate3d(0,80px,0);
+  }
+  .erreur{
+
+    width: 470px;
+    height: 170px;
+    object-fit: cover;
+  }
+  .retourPage{
+    color:#FF6060 ;
+    transform: translate3d(0,20px,0);
+  
+  }

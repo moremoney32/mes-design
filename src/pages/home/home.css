@@ -1,0 +1,25 @@
+.contenair{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 70px !important;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    background: #fafafa;
+}
+
+.sous-contenair{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.errorPokemons{
+    color: red;
+    text-align: center;
+    font-size: 35px;
+    transform: translate3d(0,20px,0);
+}
+

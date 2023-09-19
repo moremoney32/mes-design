@@ -1,0 +1,92 @@
+.contenair-edit{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contenair-edit h1{
+    font-size: 35px;
+    color: black;
+}
+.sous-contenair-edit{
+    width: 100%;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-bottom: 20px !important;
+
+}
+.sous-contenair-edit img{
+    display: flex;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.form{
+    padding-top: 50px;
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.space{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.space label{
+    color: black;
+    font-size: 25px;
+    text-align: left;
+}
+.space input{
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    background: #fafafa;
+    outline: none;
+    border: none;
+}
+.h2-edit{
+    font-size: 30px;
+    color: black;
+    text-align: left;
+}
+.space-check{
+    width: 100px !important;
+    height: 30px;
+    display: flex;
+    gap: 10px;
+}
+.space-check input{
+    cursor: pointer;
+}
+.space-check span{
+    line-height: 10px;
+}
+.button{
+    width: 100px !important;
+    margin: auto;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color:pink;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.error{
+    color: red;
+}
